@@ -38,11 +38,11 @@ count total number of emp whose age between 45 to 50 and department is sales
 count total number of emp whose age between 45 to 50 and department is sales
 */
 select count(*) as Total_emp from hr where age between 45 and 50 and department = "Sales";
-
+-- ----------------------------------------------------------------------------------------------------------------------
 # show the maximum and minimumn age whose monthly income is between 4k to 5k
 select max(age) as maximum,min(age)as minimum  from hr where monthly_income between 4000 and 5000;
-
+-- ----------------------------------------------------------------------------------------------------------------------
 select * from hr;
 # Show the total number of unique department 
 select count(distinct(department)) as Total_Unique_dept from hr;
-
+-- ----------------------------------------------------------------------------------------------------------------------
